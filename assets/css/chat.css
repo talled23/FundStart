@@ -59,12 +59,26 @@ form > button {
 }
 .others {
   position: relative;
-  margin: 10px;
+  margin: 15px;
   display: inline-block;
-  overflow-x: scroll;
 }
 .users > .others > img {
   border-radius: 75px;
-  height: 75px;
-  width: 75px;
+  height: 95px;
+  width: 170px;
+}
+.chat-text {
+  margin: 15px;
+  width: 300px;
+}
+.chat-label {
+  margin: 15px;
+  font-weight: bold;
+}
+.company-label {
+  margin-left: 250px;
+  font-weight: bold;
+}
+.company-text {
+  margin-left: 250px;
 }

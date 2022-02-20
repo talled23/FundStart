@@ -27,7 +27,7 @@
 
   </head>
 
-  <body>
+  <body onload="displayComapnies()">
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
   
@@ -62,13 +62,13 @@
         <img class = "align-self-center" src="assets/images/green.jpg">
       </button>
       <div class="align-self-center container card my-3 w-25" ondragstart="drag(event)" draggable="true">
-        <img class="card-img-top" draggable="false" src="assets/images/facebook.png" alt="Card image cap">
+        <img class="card-img-top" draggable="false" src="assets/images/stackwell.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Stackwell</h5>
           <p class="card-text">Directly attacks the trust gap driving underinvestment in the Black community by leveraging fundamental principles of behavioral psychology and simple, efficient portfolio construction.</p>
         </div>
       </div>
-      <button">
+      <button>
         <img class = "align-self-center" src="assets/images/red.jpg">
       </button>
     </div>
@@ -103,6 +103,17 @@
         window.open("chat.html","_self")
       }
     </script>
+    <script>
+    function displayComapnies() {
+    const fs = require('fs');
 
+    fs.readFile('/assets/js/investor.js', 'utf8', (err, jsonString) => {
+      if (err) {
+      console.log("File read failed:", err)
+      return 
+    }
+    console.log('File data:', jsonString)
+})}
+    </script>
   </body>
 </html>

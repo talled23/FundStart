@@ -35,4 +35,10 @@
     "logo" : "https://pbs.twimg.com/profile_images/1394635515010461698/Gd9DoInn_400x400.jpg",
     "description" : "Calendly offers a cloud-based service to help users set up and confirm meetings with others."
   },
+  "Kiira Health" : {
+    "founder" : "Crystal Adesanya",
+    "location" : "Los Angeles, CA",
+    "logo" : "https://pbs.twimg.com/profile_images/1265483226887237632/iI5_HREb_400x400.jpg",
+    "description" : "The company's platform connects users with trusted primary care physicians, obstetrics, nurses, and therapists, enabling women to get expert advice about personal health."
+  }
 }
