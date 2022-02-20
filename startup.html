@@ -1,0 +1,201 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Startups</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+    
+          <h1 class="logo me-auto"><a href="index.html">FundStart</a></h1>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link" href="index.html">Home</a></li>
+              <li><a class="nav-link active" href="startup.html">Startup</a></li>
+              <li><a class="nav-link" href="investor.html">Investor</a></li>
+              <li><a class="nav-link" href="swipe.html">Match</a></li>
+              <li><a class="nav-link" href="profile.html">Profile</a></li>
+              <li><a class="nav-link" href="chat.html">Chat</a></li>
+            </ul>
+          </nav>
+    
+        </div>
+    </header><!-- End Header -->
+
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <h1>Tell Us About Your Startup!</h1>
+                <h2>Begin getting connected with investors today!</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Form Section ======= -->
+    <section id="form" class="about">
+        <div class="container">
+            <form action="startupInsert.php" method="post">
+                <div class="py-2 form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+        
+                <div class="py-2 form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input required type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+        
+                <div class="py-2 form-group">
+                    <label for="exampleFormControlFile1">Company Logo</label>
+                    <input required type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                
+                <div class="py-2 form-group">
+                    <label for="exampleInputName1">Company Name</label>
+                    <input name="companyname" class="form-control" id="exampleInputName1" placeholder="Name">
+                </div>
+        
+                <div class="py-2 form-group">
+                    <label for="exampleFormControlTextarea1">Description (12-100 characters)</label>
+                    <textarea name="description" placeholder="A Short Description" minlength="12" maxlength="100" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+        
+                <div class="py-2 form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">By checking this box I am confirming that I am 18 years of age or older.</label>
+                </div>
+        
+                <div class="py-2 form-group form-check">
+                    <p>My business's owner identifies as a...</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="woman" name="identity" value = "w">
+                        <label class="form-check-label" for="woman">
+                            Woman
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="poc" name="identity" value = "p">
+                        <label class="form-check-label" for="poc">
+                            POC
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="lgbt" name="identity" value = "l">
+                        <label class="form-check-label" for="lgbt">
+                            LGBTQ+
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="asian" name="identity" value="a">
+                        <label class="form-check-label" for="asian">
+                            Asian
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="hisp" name="identity" value="h">
+                        <label class="form-check-label" for="hisp">
+                            Hispanic
+                        </label>
+                    </div>
+                </div>
+             
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            
+            <br/>
+
+            <button class="btn btn-primary">Already have an account?</button>
+        </div>
+    </section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h3>FundStart</h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> 123-456-7890<br>
+              <strong>Email:</strong> info@fundstart.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li> <a href="#">Home</a></li>
+              <li> <a href="#">About us</a></li>
+              <li> <a href="#">Investors</a></li>
+              <li> <a href="#">Startups</a></li>
+              <li> <a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Follow us on social media for frequent updates!</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"></a>
+              <a href="#" class="facebook"></a>
+              <a href="#" class="instagram"></a>
+              <a href="#" class="google-plus"></a>
+              <a href="#" class="linkedin"> <i class="fa-brands fa-google-plus"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FundStart</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
