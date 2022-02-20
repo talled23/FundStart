@@ -1,0 +1,38 @@
+{ 
+  "GreenTeam" : {
+    "founder"  : "John Roberts",
+    "location"  : "Boston, MA",
+    "logo"    : "https://www.calebkeiter.com/wp-content/uploads/2014/12/professional-headshot-backgrounds-600x400.jpg",
+    "description" : "Here at GreenTeam we strive to find more ways in which we can lessen the damage that use humans have done upon this earth."
+  },
+  "Explo" : {
+    "founder"  : "Miranda Ramirez",
+    "location"  : "New York City, NY",
+    "logo"    : "https://images.squarespace-cdn.com/content/v1/5bbce97b2727be3c1fe2ab75/1539636067693-QEE2CRJ61LNGEBSNF34T/7.png?format=1500w",
+    "description" : "Here at Explo we pride ourselves on making sure our loved ones are safe. Thats why we created the heartbop to keep track of your elderly loved ones."
+  },
+  "Eeros" : {
+    "founder"  : "Amanda Morgan",
+    "location"  : "San Francisco, CA",
+    "logo"    : "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmVzc2lvbmFsJTIwcG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "description" : "Here at Eeros we strive to make the world a better planet, by increasing the amount of trees planted across the globe."
+  },
+  "Galax" : {
+    "founder"  : "Jason Stanley",
+    "location"  : "Houston, TX",
+    "logo"    : "https://et.iupui.edu/people/_images/hdalir.png",
+    "description" : "Here at Galax we strive to make the first big leaps towards space travel beyond anywhere any human has ever gone before."
+  },
+  "Squire" : {
+    "founder" : "Dave Salvant and Songe LaRon",
+    "location" : "New York City, NY",
+    "logo" : "https://www.blackenterprise.com/wp-content/blogs.dir/1/files/2017/06/Unknown-1-1.jpeg",
+    "description" : "Squire gives your barber shop the technology you need to succeed in today’s fast-paced environment."
+  },
+  "Calendly" : {
+    "founder" : "Tope Awotona",
+    "location" : "Atlanta, GA",
+    "logo" : "https://pbs.twimg.com/profile_images/1394635515010461698/Gd9DoInn_400x400.jpg",
+    "description" : "Calendly offers a cloud-based service to help users set up and confirm meetings with others."
+  },
+}

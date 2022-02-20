@@ -1,0 +1,70 @@
+.chatBox {
+  border-width: 400px;
+  border-color: black;
+  height: 700px;
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  position: relative;
+}
+.divider {
+  position: absolute;
+  left: 50%;
+  right: 0px;
+  top: 0px;
+  width: 5px;
+  height: 700px;
+  border-color: black;
+  border-width: .25px;
+  background-color: black;
+  border-style: solid;
+}
+.text1 {
+  padding: 20px;
+}
+.text2 {
+  padding: 20px;
+  padding-top: 130px;
+}
+
+input {
+  position: absolute;
+  max-width: 800px;
+  min-width: 550px;
+  padding: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  color: #6bc1e9;
+  left: 0%;
+  bottom: -541px;
+}
+form > button {
+  position: relative;
+  left: 670px;
+  bottom: -540px;
+}
+.bar {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  border-color: black;
+  border-width: 1px;
+  background-color: black;
+  height: 3px;
+  top: 100px;
+}
+.users {
+  position: relative;
+  display: inline;
+}
+.others {
+  position: relative;
+  margin: 10px;
+  display: inline-block;
+  overflow-x: scroll;
+}
+.users > .others > img {
+  border-radius: 75px;
+  height: 75px;
+  width: 75px;
+}
